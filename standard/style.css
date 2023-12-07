@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  .header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    width: 170px;
+    height: 100px;
+
+  }
+
+  .logo2 {
+    display: inline-block;
+  }
+
+  .menu-bar {
+    background: dimgrey;
+    text-align: center;
+  }
+
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: dimgrey;
+  }
+
+  .menu-bar ul li {
+    width: 120px;
+    height: 70px;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .active .menu-bar ul li:hover {
+    background: darkgrey;
+    border-radius: 3px;
+  }
+
+  .menu-bar .fa {
+    margin-right: 8px;
+  }
+
+  .sub-menu {
+    display: none;
+  }
+
+  .menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: dimgrey;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+
+  .menu-bar ul li:hover .sub-menu ul  {
+    display: block;
+    margin: 10px;
+  }
+
+  .menu-bar ul li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+
+  .menu-bar ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+
+  }
+
+  .menu-bar ul li:hover .sub-menu ul li a:hover {
+    color: darkgrey;
+  }
+
+  .menu-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+
+
+
+
+  header {
+    background-color: grey;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li a {
+    color:
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .services {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .services li {
+    flex-basis: 30%;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .services li img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .services li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services li p {
+    font-size: 1rem;
+  }
+  
+ 
+
+
+
+  

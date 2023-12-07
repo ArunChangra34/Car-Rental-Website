@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apes Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="java.js"></script>
+    <style>
+        body {
+         font-family: Arial, sans-serif;
+         background-color: #f0f0f0;
+        }
+
+       .checkout-container {
+          max-width: 600px;
+          margin: 70px auto;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+          margin-bottom: 50px;
+        }
+
+        label {
+         display: block;
+         margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 20px;
+         box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+         background-color: #007bff;
+         color: #fff;
+         padding: 10px 20px;
+         border: none;
+         cursor: pointer;
+         width: 100%;
+        }
+
+        button[type="submit"]:hover {
+         background-color: #0056b3;
+        }
+    </style>
+
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+
+        <div class="menu-bar">
+          <ul>
+            <li class="active"><a href="#"><i class="fa"></i><img src="menu.svg" height="30"></a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a href="coupon.html">COUPONS</a></li>
+
+                  <li><a href="aboutus.html">ABOUT US</a></li>
+                  <li><a href="contactus.html">CONTACT</a></li>
+                </ul>
+              </div></li>
+
+          </ul>
+        </div>
+
+        <div class="logo2">
+            <a href="car.html"><img src="logo.png" alt="logo" class="logo"></a>
+        </div>
+
+      </nav>
+    </header>
+    <main>
+      <div class="checkout-container">
+        <h2>Checkout Details</h2>
+        <form>
+            <label for="start">START DATE:</label>
+            <input type="date" id="start" name="trip-start" value="2023-12-22" min="2023-11-22" max="2024-12-31" />
+            <label for="start">END DATE:</label>
+            <input type="date" id="start" name="trip-end" value="2023-12-22" min="2018-11-22" max="2024-12-31" />
+            <span></span>
+            <label for="no. of days">No. of days</label>
+            <span></span>
+            <input type="text" id="no. of days" placeholder="No.of days">
+            <span></span>
+            <label for="link coupon">Apply Coupon</label>
+            <span></span>
+            <input type="text" id="link coupon" placeholder="Enter your coupon code"><br>
+            <span></span>
+            <div>
+                <a href="payment.html">
+                    PROCEED
+                </a>
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Services</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="booknow.html">Book a cab</a></li>
+
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+				<h4>Get Help</h4>
+  	 			<ul>
+  	 				<li><a href="contactus.html">Contact us</a></li>
+  	 				<li><a href="faqs.html">Support</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+    </footer>
+  </body>
+</html>
